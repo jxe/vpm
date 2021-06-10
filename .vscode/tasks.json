@@ -1,0 +1,27 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "group": "build",
+      "label": "pandoc",
+      "type": "shell",
+      "command": "pandoc --from=markdown --output=vpm.pdf vpm.md --pdf-engine=xelatex -s -C",
+      "problemMatcher": []
+    },
+    {
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "label": "pandoc watch",
+      "type": "shell",
+      "command": "watchexec -w vpm.md -w vpm.bib -- pandoc --from=markdown --output=vpm.pdf vpm.md --pdf-engine=xelatex -s -C",
+      "problemMatcher": []
+    }
+
+  ]
+}
+
+
