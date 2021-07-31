@@ -81,11 +81,9 @@ APs are applicable across all domains in life---the moral, the self-interested, 
 
 [^other-methods]: Social attestations, also, could be a source of AP information: someone who is widely admired for their wit likely has an AP about it. Behavioral data may also work: if someone shops by price or by quality, that may show up in purchase or click data.[Using, perhaps, approaches like @Chang2001; or @Levi1990.]
 
-# Broadly-Supported Choices
+# Broadly-Supported APs
 
-My second 'step back' considers why a choice was made. Consider these four choices:
-
-(@) I had to take the job, it was the only way to feed my family.
+My second 'step back' considers why an AP was adopted. Consider these three cases:
 
 (@) I watch the road while driving. I don't want to crash.
 
@@ -93,19 +91,21 @@ My second 'step back' considers why a choice was made. Consider these four choic
 
 (@) I recently opened up to a friend about a struggle of mine. Since then, the relationship feels more intimate, and stronger; it's easier for me to think about what to say; my friend is unexpectedly helpful. I've decided to be more honest with friends from now on.
 
-The first three have something in common---my reasonng for making those choices lands heavily on one concern[^concern] of mine (my desires, respectively, to feed my family, to stay alive, and to keep my job). In each case, if that concern were removed from consideration (such as if there were other ways to feed my family, if I was going to crash anyways, if my speech had no bearing on whether I'd be fired), I'd change my choice.
+The first two have something in common---my reasons to adopt these APs in these contexts lands heavily on an *intermediate concern*---a state of the world I want to achieve, maintain, or ensure (staying alive, and keeping my job, respectively). In each case, if that concern were removed from consideration (such as if I was going to crash anyways, or if my speech had no bearing on whether I'd be fired), I'd adopt a different AP and consider myself better off.
 
-In example 4, on the other hand, my concerns, individually taken, are not what the choice is about. For instance, although I like it when "my friend is unexpectedly helpful", my choice doesn't depend on that, or any other single concern.
+In example 3, there's no such intermediate concern. I do like it when, for instance, "my friend is unexpectedly helpful", and this is part of my reason for adopting the AP of honesty with friends. But my adoption doesn't land heavily on any one reason, and if I was otherwise assured the benefits of being honest, I wouldn't consider myself better off by discarding the AP.
 
-With the first three, I'll say the choice was *narrowly-supported* by one of my concerns. In cases like (4), I'll say it's *broadly-supported*.
+Whereas, in the first two examples, the AP was *narrowly-supported* by an intermediate concern, in cases like (3), I'll say it's a *broadly-supported* attentional policy (a BAP), by which I mean one without an intermediate concern.
 
-This distinction only works if you're clear on what's being decided. If I decide to write a letter to my friend, because I want to open up to him, then opening up is a dominant reason for writing. I wouldn't write the letter if I didn't want to open up. However, the choice to open up *itself* may count as broadly-supported.
+Why are some APs narrowly-, others broadly-supported? One explanation is that there are clusters of densely-connected, mutually-supportive policies and practices in a person's life. My honesty with friends is part of such a cluster: it works well with other aspects of my friendships, with my habit of taking a walk each day, with my courageous approach to my work life, and so on.
 
-Why are some choices narrowly-, others broadly-supported? One explanation is that there are clusters of densely-connected, mutually-supportive policies and practices in a person's life. My honesty with friends is part of such a cluster: it works well with other aspects of my friendships, with my habit of taking a walk each day, with my courageous approach to my work life, and so on.
+When an AP is part of one of these densely-connected, mutually-supportive bundles, it will be broadly-supported. There will be less concern about any particular benefit panning out.[This argument descends from @Boyd1988] The adopter may even sense they've only *just begun* to discover why their AP works out. In other words, they'll see it as addressng *bountiful*, *secondary*, and *untracked* concerns.
 
-When a choice is part of one of these densely-connected, mutually-supportive bundles, it will be broadly-supported. There will be less concern about any particular benefit panning out.[This argument descends from @Boyd1988] The chooser may even sense they've only *just started* discovering reasons for their choice. In other words, that the reasons are *bountiful*, *redundant*, and *untracked*.
+In contrast, APs due to more logistical, instrumental, or hypothetical concerns (including concerns from outside pressure and limited options) will tend to be narrowly-supported.[^intrinsic]
 
-In contrast, choice about more logistical, contingent, or hypothetical concerns (including concerns from outside pressure and limited options) will tend to be narrowly-supported.
+[^intrinsic]: Indeed, I believe a focus on broad-benefit eliminates much of what philosophers call instrumental reasons--what's done merely to keep our jobs, to fit in with a friend group, to achieve specific goals, or to get good sensations.
+
+[^concern]
 
 [^concern]: I'm being careful to use the word "concern" here, rather than reason. Following @Velleman1989; @Bond1983, I take reasons to be logical chains that connect our concerns to possible actions. E.g.: { I want to get rid of this toothache \rightarrow{} the dentist will probably know what to do \rightarrow{} I'll call the dentist }. The concern is the thing on the left. The space of concerns is smaller and more managable than the space of reasons.
 
@@ -119,7 +119,7 @@ I want to suggest that some of an agent's APs deserve to be called their values[
 
 > Later, when choosing teammates, I began looking for this alignment first. My teams now seem more likely to stick together. But that's just one benefit of many. Even if I knew my teams *wouldn't* last longer, I'd still hire with this in mind.[^eventually]
 
-In this story, I gained a broad-supported AP (a BAP). The story fits two senses in which we use the word "values". But before I go into those, I'll bracket one common sense of "values" which *doesn't* fit BAPs: visions of what's right for everyone, or for a group. What a family should be like, how a father should behave, what a nation should be like, etc.
+In this story, I gained a BAP. The story fits two senses in which we use the word "values". But before I go into those, I'll bracket one common sense of "values" which *doesn't* fit BAPs: visions of what's right for everyone, or for a group. What a family should be like, how a father should behave, what a nation should be like, etc.
 
 In my story, I don't gain *that* kind of value. It's inspiring for me, and if I was in a mentoring situation I might suggest it, but I don't come to think everyone should hire this way. It's not a political cause (like inclusiveness, freedom, etc), nor is it some standard to which I hope others will conform, and to which I try to conform myself (like masculine or feminine dress-codes). BAPs have little to do with these uses of the word values.[^visions]
 
@@ -131,7 +131,7 @@ Second, we use values to mean those individual sources of meaning that keep inst
 
 But sometimes it's used to mean something more personal: a scientist's values might include intellectual humility, passionate pursuit of the truth, etc. These aren't just meaningful for scientists, they keep the institution of science on the rails.[^collective]
 
-Even though they're BAPs are individual, they seem to capture this kind of knowledge[^wisdom]---knowledge about the smooth operation of social life.
+Although BAPs are adopted by individuals, they seem to capture this kind of knowledge[^wisdom]---knowledge about the smooth operation of social life.
 
 [^eventually]: Eventually, I suppose having teammates like this will cease to be meaningful to me---it will just be how my life is. But when I'm hiring, it will still be an attentional policy I've adopted for broad benefits.
 
@@ -155,38 +155,28 @@ We can verify "taking responsibility" is a BAP for her, by asking her when that 
 
 If this BAP drove her search process, she would have found a wide variety of ways to take responsibility as part of her job search. If, on the other hand, she was more focused on finding any job that'd feed her family, we would expect a narrower collection of options.
 
-In this case, it's likely that the BAP didn't drive this particular choice.
-
-how expressive is Janet's choice to work at Soulcrushingjobs.com of her value of "taking responsibility"?
-
-I believe this choice is less expressive of "taking responsibility" than other ways Janet might take responsibility, had she more options, and less pressure. Why? Because her choice is highly-constrained by the concerns which aren't BAPs.
-
-Imagine you asked Janet to partition her concerns into two subsets, $A$ and $B$, such that, without the concerns in set $A$, she could think of many nicer ways to address the concerns in $B$. She might say: yes, she could think of many nicer ways to take responsibility (set $B$), if she didn't have to address her goal of feeding the family, or her two fears about that (set $A$).
-
-This answer indicates that it's the goals and fears, not the BAP, that are pruning Janet's options.
+If the BAP didn't drive this particular choice, I think we can safely say that the choice is less expressive of Janet's values, and more about her logistical concerns.
 
 Contrast Janet's choice with Josh's, to teach at Dartmouth rather than Harvard. Josh also has a goal of making tenure someday, and at Dartmouth this seems a bit more likely. More important in his choice, he wants to enjoy the fresh air of New Hampshire, and build relationships with his students, which he thinks will go better at Dartmouth.
 
-Josh says that, if he didn't have to address his policies of 'enjoying fresh air' or 'building relationships with students' (set $A$), he could think of many better ways to ensure tenure (set $B$).
+Again, we can ask which of these is a BAP, and what role it played. We may learn that his job search was structured by the BAP of building intimate relationships with students.
 
-Formally, we can say that, in situations like Janet's and Josh's, a choice is constrained by the concerns in set $A$. But in Josh's case, there are BAPs in set $A$, whereas in Janet's case, all of her BAPs are in $B$. I claim that cases like Josh's are most expressive of our values, because they are less bound by logistical or other kinds of instrumental[^intrinsic] concerns. I would like to use the term 'meaningful choice' for a revealed preference like Josh's.
+I think we can then say that Josh's choice is more expressive of his values, because it is less bound by logistical or other kinds of instrumental concerns.
 
-[^intrinsic]: Indeed, I believe a focus on broad-benefit eliminates much of what philosophers call instrumental reasons--what's done merely to keep our jobs, to fit in with a friend group, to achieve specific goals, or to get good sensations.
+I'd like to use the term 'meaningful choice' for a revealed preference like Josh's---one driven by a BAP. And I'd like to say that meaningful choice is exactly what Janet was deprived of.
 
 # Conclusion
 
-Suppose that surveys could be run, to determine people's BAPs and constraining concerns, and that these surveys wouldn't require so much introspection or articulacy that they would limit the population of respondants^[Perhaps they are interactive, or infer BAPs from other data. In any case, we must be careful: people often lack access to reasons, are inarticulate about them, and when asked, may misrepresent them.].
+Suppose a survey were developed to determine people's BAPs and their role in choice, and that these surveys could be simplified, to the point where the introspection or articulacy required wouldn't limit their applicability^[E.g., with rich interactivity, or by infering BAPs from other data.].
 
-Suppose, also, that the data so-obtained can be made robust, verifiable, and auditable.^[The kinds of surveys I've described introduce a fuzzy factor that would likely need to be overcome, especially to make good social choice mechanisms.]
+Suppose, also, that the data so-obtained can be verifiable, auditable, reliable, and legitimate.^[Granted, a tall order.]
 
-In that case, one proposal for fixing welfare calculations and social choice, is to substitute meaningful choice for the standard preference relation.This has the advantage of maintaining the normal structure of welfare economics. @Bernheim2009.
+Then, welfare calculations and social choice mechanisms could be modified: by substituting meaningful choice for the standard preference relation.[Maintaining the normal structure of welfare economics, see @Bernheim2009.]
 
-Returning to where I started, with recommender systems, social choice mechanisms, and welfare calculations: to alter these, one could substitute
+These new mechanisms might cease to reward to those who rig people's choices (through misinformation, market manipulation, etc). They could address other areas where preferences are misaligned with values, like clickbait, internet addiction, populist politics, and obesity.
 
-Doing so would, we hope, cease the reward to those who rig people's choices through misinformation, market manipulation, etc. It could address other areas where preferences are misaligned with values: clickbait, internet addiction, populism, obesity, etc.
+They might also better support those values that keep science, democracies, etc on the rails---values which are often lost in revealed preference due to coordination problems.
 
-It might also do something to preserve the individual meanings that keep science, democracies, etc on the rails. These values are often lost, due to coordination problems, in revealed preferences. They may be less likely to be lost in BAPs.
-
-Unfortunately, meaningful choice as I've described it doesn't go far enough. It doesn't count Janet's choice of Soulcrushingjobs.com as an endorsement---and that's good. But it should count Janet's lack of meaningful choice as an indictment! We'd like a measure that increases the number of meaningful choices, relative to the total: to give more people more such choices. To do that, we'd need to give welfare more of an overhaul.
+And this might be an information basis for mechanisms and calculations which go much further than meaningful choice: We could develop a measure that increases the number of meaningful choices, relative to the total: to give more people more such choices.
 
 # References
