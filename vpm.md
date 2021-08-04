@@ -2,7 +2,7 @@
 title: Values, Preferences, Meaningful Choice
 author: |
   | Joe Edelman[^joe]
-date: 14 July 2021 --- \textsc{draft}
+date: 3 August 2021 --- \textsc{draft}
 abstract: |
   Many fields (social choice, welfare economics, recommender systems) assume people express what benefits them via their 'revealed preferences'. Revealed preferences have well-documented problems when used this way, but are hard to displace in these fields because, as an information source, they are *simple*, *universal*, *robust*, and *high resolution*. In order to compete, other information sources (about participants' values, capabilities and functionings, etc) would need to match this. I present a conception of values as *broad-benefit attention policies*, which match many of these features of revealed preference, and show how to build an alternative preference relation, *Meaningful Choice*.
 classoption:
@@ -27,9 +27,9 @@ In his 1938 paper introducing revealed preference, @Samuelson1938 warned:
 
 Similar sentiments followed, in @Arrow1951, @Sen1977, @Anderson2001, etc. As an information basis for welfare, optimality, social choice, etc, revealed preference has been much critiqued.
 
- All the same, it's hard to see how to move away from it without paternalism: people know best for their own lives---shouldn't we trust their choices, and avoid imposing "better values" from above?
+ All the same, it's hard to see how to move away from it, without paternalism: if people know best for their own lives---shouldn't we trust their choices as the final proof of their intentions? How else can we avoid imposing "better values" from above?
 
-One way to respond is to say that people *do* know best, and have wise values, but that their revealed preferences aren't the last word on those values. But to establish this, you'd want another source of information on people's values---one that retains much of the resolution, robustness, simplicity, and universality of preference.
+One way to respond is to say that people *do* know best, and have wise values, but that their revealed preferences aren't the last word on those values. But to establish this, you'd want another source of information on people's values---one that retains much of the resolution, robustness, universal applicability, and democratic simplicity of preference.
 
 I'll develop such an information source here, by taking two 'steps back' from revealed preference, widening the information collected. Then I'll argue that my new source corresponds with one definition of "values" used in common speech. Finally, I'll show how this new source can be used in social choice and welfare calculations.
 
@@ -43,12 +43,12 @@ More broadly, you can manufacture social circumstances where people choose your 
 
 In some cases, the person will know their choice doesn't express their true interests---that they are bucking to external pressure, caught in the system, or setting aside their goals to conform to a social rule.[See @Sen1977; @Anderson1993 on 'commitment'] In other cases, options have been limited or biased behind our backs.
 
-Given these problems, why does revealed preference still play a role in notions of benefit and measures of optimality? It has huge advantages as an information source: in the resolution and robustness of the data provided, and their near universal applicability, and their democratic simplicity:
+Given these problems, why does revealed preference still play a role in notions of benefit and measures of optimality? It has huge advantages as an information source: in the resolution and robustness of the data provided, its near-universal applicability, and the democratic simplicity of its collection:
 
-* Preferences are informed by our local situations and priorities, and say fine-grained things how about each of us wants to live.
-* Preferences get at our *real*, battle-tested priorities: what we choose in the final analysis, not just what we *say* we want. And they often leave verifiable trails: purchase histories, voting records, etc.
-* Preferences can represent all-things-considered judgements, combining morality and self-interest, and work in many domains of life.
-* Finally, those who aren't introspective or eloquent can still express a preference.
+* Preferences say fine-grained things how about each of us wants to live, informed by our local situations and priorities.
+* Preferences get at what we choose in the final analysis, our *real*, battle-tested priorities, not just what we *say* we want.
+* Preferences work in many domains of life, and represent all-things-considered judgements, combining morality, prudence, whims, etc.
+* Finally, those who aren't introspective or eloquent can still express a preference. And preferences leave simple-to-understand, verifiable trails: purchase histories, voting records, etc.
 
 # Attentional Policies
 
@@ -64,7 +64,7 @@ I think this earlier choice, at $t_0$, reveals more about me than the latter one
 
 [^adopted]: I adopt APs (just like I make plans, adopt heuristics, comply with norms, follow through with intentions) because my bounded rationality and social needs make it expedient.[@Bratman1987; @Simon1955; @Taylor2016]
 
-To collect APs, instead of preferences, you could (e.g., in an interactive survey) for the users' common contexts (socializing, at work, in difficult conversations), and have them pick what they attend to most in each.[^other-methods]
+Collecting an agent's APs is part of my proposal to improve the information basis of welfare, social choice, and recommenders. How could that work? You could use an interactive survey to collect the agent's common contexts (socializing, at work, in difficult conversations), and have them pick what they attend to most in each.[^other-methods]
 
 If they claim to have AP $a$ in context $c$, you could verify that with followup questions: First, you could ask them about recent moments in $c$, and what options they've found using $a$. Someone with a policy of vulnerability should be able to cough up various opportunities for vulnerabily, recently considered; some taken, some not.
 
@@ -72,66 +72,70 @@ Additionally, that person will also know when *exactly* vulnerability is called 
 
 While many may claim vulnerability is what they attend to with friends, only some will answer these questions easily, and in detail.
 
-How do such data compare with the resolution, robustness, universality, and democratic simplicity of revealed preference?
+How would such data compare with the resolution, robustness, universality, and democratic simplicity of revealed preference?
 
-* Like preferences, APs are informed by our local situations and priorities, and say fine-grained things about how we want to live. Indeed, they have a higher resolution than I've let on so far: an AP about 'honesty' or 'vulnerability' is always short for a more specific policy, like "attend to what I feel about each thing we discuss, and let my feeling show", or "attend to false impressions a listener may get from my statements, and head them off with a disclaimer". That is: having honesty as a policy requires a substantive interpretation of honesty, and these differ from person to person.
-* APs are battle-tested. I wish I could craft my words to simultaneously be kind, honest, tactful, humble, and inspiring. I wish I could, at the same moment, be precise in my speech, aware how each word lands, aware of my own feelings; transparent, calm, and centered; passionate; physically graceful, like a dancer. But APs *compete* for my attention. So, my choice to look for witty things to say crowds out many other options.
+Like preferences, APs are informed by our local situations and priorities, and say fine-grained things about how we want to live. Indeed, they have a higher resolution than I've let on so far: an AP about 'honesty' or 'vulnerability' is always short for a more specific policy, like "attend to what I feel about each thing we discuss, and let my feeling show", or "attend to false impressions a listener may get from my statements, and head them off with a disclaimer". That is: having honesty as a policy requires a substantive interpretation of honesty, and these differ from person to person.
 
-APs are applicable across all domains in life---the moral, the self-interested, etc, and apply to many kinds of contexts. But, they score worse on democratic simplicity than revealed preference.
+APs are battle-tested. I wish I could craft my words to simultaneously be kind, honest, tactful, humble, and inspiring. I wish I could, at the same moment, be precise in my speech, aware how each word lands, aware of my own feelings; transparent, calm, and centered; passionate; physically graceful, like a dancer. But APs *compete* for my attention. So, my choice to look for witty things to say crowds out many other options.
+
+Like preferences, APs are applicable across all domains in life---the moral, the self-interested, etc, and apply to many kinds of contexts.
+
+But, they score worse on democratic simplicity than revealed preference. And, for now, it's unclear how an agent's APs would provide a substitute for revealed preference. I'll get to that.
 
 [^other-methods]: Social attestations, also, could be a source of AP information: someone who is widely admired for their wit likely has an AP about it. Behavioral data may also work: if someone shops by price or by quality, that may show up in purchase or click data.[Using, perhaps, approaches like @Chang2001; or @Levi1990.]
 
-# Broadly-Supported APs
+# Broad Evaluation
 
-My second 'step back' considers why an AP was adopted. Consider these three cases:
+My second 'step back' considers the process of evaluation by which an agent makes a choice. Look at these three cases:
 
 (@) I watch the road while driving. I don't want to crash.
 
 (@) I'm careful with my speech at work. My boss fires anyone who speaks imprecisely.
 
-(@) I recently opened up to a friend about a struggle of mine. Since then, the relationship feels more intimate, and stronger; it's easier for me to think about what to say; my friend is unexpectedly helpful. I've decided to be more honest with friends from now on.
+(@) I've decided to be more honest with friends. I recently opened up to a friend about a struggle I'm having. Since then, the relationship feels more intimate, and stronger; it's easier for me to think about what to say; my friend is unexpectedly helpful.
 
-The first two have something in common---my reasons to adopt these APs in these contexts lands heavily on an *intermediate concern*---a state of the world I want to achieve, maintain, or ensure (staying alive, and keeping my job, respectively). In each case, if that concern were removed from consideration (such as if I was going to crash anyways, or if my speech had no bearing on whether I'd be fired), I'd adopt a different AP and consider myself better off.
+The process of evaluation that lead the agent to adopt the first two APs is different than the third. Some APs are adopted mainly to achieve, maintain, ensure, or avoid a known outcome. The first two examples are of this type.
 
-In example 3, there's no such intermediate concern. I do like it when, for instance, "my friend is unexpectedly helpful", and this is part of my reason for adopting the AP of honesty with friends. But my adoption doesn't land heavily on any one reason, and if I was otherwise assured the benefits of being honest, I wouldn't consider myself better off by discarding the AP.
 
-Whereas, in the first two examples, the AP was *narrowly-supported* by an intermediate concern, in cases like (3), I'll say it's a *broadly-supported* attentional policy (a BAP), by which I mean one without an intermediate concern.
+I think, in these cases, there's not just a difference in degree (in the number of reasons), but that a different kind of evaluation is used: In the case of clear outcomes, we evaluate based on an expectation of known benefits and costs, much as a rational choice theorist might hope. But the other case features a more Rawlsian[@Rawls1971; also @Velleman1989; and @Boyd1988] kind of evaluation, where we look for an overall fit for the new activity within the constellation of practices and aims that make up our life. We guess how the new thing might fit, even with practices we haven't fully catalogued. We reconnoiter the space of potential benefits, looking for an overall trend, rather than a clear outcome. In doing so, we ask ourselves a question like "does this activity belong in my best life?" and evaluate based on how it fits with whatever we've already answered yes to.
 
-Why are some APs narrowly-, others broadly-supported? One explanation is that there are clusters of densely-connected, mutually-supportive policies and practices in a person's life. My honesty with friends is part of such a cluster: it works well with other aspects of my friendships, with my habit of taking a walk each day, with my courageous approach to my work life, and so on.
+- Does she gives a small number of reasons, pointing towards one state of the world, $s$, that she's working to achieve, maintain, or ensure (such as 'staying alive', or 'keeping her job')?
+- Do those reasons seem to capture her rationale fully? To test this, ask her how she'd feel if they were they taken out of consideration (e.g., if she discovered she'd crash anyways, or that her speech had no bearing on whether she'd be fired): Would she select a different AP for $c$ and consider herself better off, free to focus on something else? Or similarly, would she consider it a net gain if she could clone herself, and have the clone handle doing $a$ in $c$? Or otherwise automate the achievement of $s$?
+- While doing $a$, does she split her attention, so that she can reconsider, if needed, the efficacy of $a$ in achieving $s$?
 
-When an AP is part of one of these densely-connected, mutually-supportive bundles, it will be broadly-supported. There will be less concern about any particular benefit panning out.[This argument descends from @Boyd1988] The adopter may even sense they've only *just begun* to discover why their AP works out. In other words, they'll see it as addressng *bountiful*, *secondary*, and *untracked* concerns.
+Positive answers indicate a narrow-evaluation. On the other hand:
 
-In contrast, APs due to more logistical, instrumental, or hypothetical concerns (including concerns from outside pressure and limited options) will tend to be narrowly-supported.[^intrinsic]
+- Does she have diffuse reasons for adopting $a$ in $c$? Does she sense she's only *just begun* discovering the benefits of $a$, and more will come?
+- Imagine her current reasons were taken out of consideration (e.g., if she were assured that, without opening up to friends, she could magically get the same benefits---an easier time speaking, more helpful friends?). Would she still want to do $a$ in $c$? Relatedly, if she could clone herself, would she reserve for herself the task of doing $a$ rather than give it to the clone (or otherwise automate it)?
+- While doing $a$, is her attention unified, with no worry about whether she's achieving/maintaining/ensuring $s$?
 
-[^intrinsic]: Indeed, I believe a focus on broad-benefit eliminates much of what philosophers call instrumental reasons--what's done merely to keep our jobs, to fit in with a friend group, to achieve specific goals, or to get good sensations.
+Positive answer mean we can say that $a$ is, for this agent, a BAP.[^intrinsic]
 
-[^concern]
+I'll refer to this as broad-evaluation. When an AP is adopted from a broad-evaluation, I'll call it a "BAP"---a *broadly-evaluated attentional policy*. An agent's APs can be filtered, and the BAPs highlighted: If an agent uses AP $a$ in context $c$, you can ask her why $a$ is wise in $c$:
 
-[^concern]: I'm being careful to use the word "concern" here, rather than reason. Following @Velleman1989; @Bond1983, I take reasons to be logical chains that connect our concerns to possible actions. E.g.: { I want to get rid of this toothache \rightarrow{} the dentist will probably know what to do \rightarrow{} I'll call the dentist }. The concern is the thing on the left. The space of concerns is smaller and more managable than the space of reasons.
+[^intrinsic]: This eliminates much of what philosophers call instrumental reasons--what's done merely to keep our jobs, to fit in with a friend group, to achieve specific goals, or to get good sensations. Whatever's due to logistical, instrumental, or hypothetical concerns (including concerns from outside pressure and limited options).
 
 [^values]: I'm using "values" here as it's used in everyday speech. In philosophical writing, values are often considered as evaluative criteria or attitudes (@Chang2004, @Velleman1989). My treatment of them as policies works there too, I think: an evaluative attitude or criterion can be viewed as something a person does when making an evaluation or choice.
 
-# Values as Broadly-Supported Attention Policies
+# Values as BAPs
 
-I want to suggest that some of an agent's APs deserve to be called their values[^values]. Specifically, those APs which were adopted as broadly-supported choice. I'll illustrate this with a personal story:
+I want to suggest that an agent's BAPs deserve to be called their values[^values]. I'll illustrate this with a personal story:
 
 > Earlier in my career, I chose work colleagues for their brilliance, efficacy, and a shared sense of play. One day, with one colleague in particular, I recognized a different thing we shared: we were excited to participate in the same long-term trends. This felt meaningful.
 
 > Later, when choosing teammates, I began looking for this alignment first. My teams now seem more likely to stick together. But that's just one benefit of many. Even if I knew my teams *wouldn't* last longer, I'd still hire with this in mind.[^eventually]
 
-In this story, I gained a BAP. The story fits two senses in which we use the word "values". But before I go into those, I'll bracket one common sense of "values" which *doesn't* fit BAPs: visions of what's right for everyone, or for a group. What a family should be like, how a father should behave, what a nation should be like, etc.
+In this story, I gained a BAP. Did I gain a value? There are two senses in which the word "values" is commonly used, by which I did gain a value. But before I go into those, I'll bracket one common sense of "values" which *doesn't* fit BAPs: visions of what's right for everyone, or for a group: what a family should be like, how a father should behave, what a nation should be like, etc.
 
-In my story, I don't gain *that* kind of value. It's inspiring for me, and if I was in a mentoring situation I might suggest it, but I don't come to think everyone should hire this way. It's not a political cause (like inclusiveness, freedom, etc), nor is it some standard to which I hope others will conform, and to which I try to conform myself (like masculine or feminine dress-codes). BAPs have little to do with these uses of the word values.[^visions]
+In my story, I don't gain *that* kind of value. It's inspiring for me, and if I was in a mentoring situation I might suggest it, but I don't come to think everyone should hire this way. It's not a political cause (like inclusiveness, freedom, etc), nor is it some standard to which I'll push others to conform, or try to conform myself (like masculine or feminine dress-codes). BAPs have little to do with this use of the word "values".[^visions]
 
-But, there are two other uses of the word values which are just as prevalent, and fit snugly:
+But, two common uses of the word values are just as prevalent, and fit snugly:
 
-First, we use values to mean things that feel right and meaningful when you do them---such as being vulnerable, taking stage, being creative, etc. My BAP qualifies in this sense.
+First, we use values to mean things that feel right and meaningful when you do them---such as being vulnerable, taking stage, being creative, etc. My BAP qualifies here.
 
-Second, we use values to mean those individual sources of meaning that keep institutions working---e.g., in expressions like "the values of science" or "democratic values". Sometimes this is meant to point to visions of what's right, which I bracketed aside above: a free country, an inclusive process.
+Second, we use values to mean those individual sources of meaning that keep institutions working---e.g., in expressions like "the values of science" or "democratic values". ^[Sometimes this is meant to point to visions of what's right, which I bracketed aside above: a free country, an inclusive process.] In this sense, a scientist's values might include intellectual humility, passionate pursuit of the truth, etc. These aren't just meaningful for scientists, they keep the institution of science on the rails.[^collective]
 
-But sometimes it's used to mean something more personal: a scientist's values might include intellectual humility, passionate pursuit of the truth, etc. These aren't just meaningful for scientists, they keep the institution of science on the rails.[^collective]
-
-Although BAPs are adopted by individuals, they seem to capture this kind of knowledge[^wisdom]---knowledge about the smooth operation of social life.
+BAPs are adopted by individuals, but they seem to capture well this kind of wisdom[^wisdom]---knowledge about the smooth operation of social life.
 
 [^eventually]: Eventually, I suppose having teammates like this will cease to be meaningful to me---it will just be how my life is. But when I'm hiring, it will still be an attentional policy I've adopted for broad benefits.
 
@@ -155,15 +159,7 @@ We can verify "taking responsibility" is a BAP for her, by asking her when that 
 
 If this BAP drove her search process, she would have found a wide variety of ways to take responsibility as part of her job search. If, on the other hand, she was more focused on finding any job that'd feed her family, we would expect a narrower collection of options.
 
-If the BAP didn't drive this particular choice, I think we can safely say that the choice is less expressive of Janet's values, and more about her logistical concerns.
-
-Contrast Janet's choice with Josh's, to teach at Dartmouth rather than Harvard. Josh also has a goal of making tenure someday, and at Dartmouth this seems a bit more likely. More important in his choice, he wants to enjoy the fresh air of New Hampshire, and build relationships with his students, which he thinks will go better at Dartmouth.
-
-Again, we can ask which of these is a BAP, and what role it played. We may learn that his job search was structured by the BAP of building intimate relationships with students.
-
-I think we can then say that Josh's choice is more expressive of his values, because it is less bound by logistical or other kinds of instrumental concerns.
-
-I'd like to use the term 'meaningful choice' for a revealed preference like Josh's---one driven by a BAP. And I'd like to say that meaningful choice is exactly what Janet was deprived of.
+* Voice Note
 
 # Conclusion
 
