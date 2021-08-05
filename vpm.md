@@ -2,9 +2,9 @@
 title: Values, Preferences, Meaningful Choice
 author: |
   | Joe Edelman[^joe]
-date: 3 August 2021 --- \textsc{draft}
+date: 5 August 2021 --- \textsc{draft}
 abstract: |
-  Many fields (social choice, welfare economics, recommender systems) assume people express what benefits them via their 'revealed preferences'. Revealed preferences have well-documented problems when used this way, but are hard to displace in these fields because, as an information source, they are *simple*, *universal*, *robust*, and *high resolution*. In order to compete, other information sources (about participants' values, capabilities and functionings, etc) would need to match this. I present a conception of values as *broad-benefit attention policies*, which match many of these features of revealed preference, and show how to build an alternative preference relation, *Meaningful Choice*.
+  Many fields (social choice, welfare economics, recommender systems) assume people express what benefits them via their 'revealed preferences'. Revealed preferences have well-documented problems when used this way, but are hard to displace in these fields because, as an information source, they are simple, universally applicable, robust, and high-resolution. In order to compete, other information sources (about participants' values, capabilities and functionings, etc) would need to match this. I present a conception of values as *attention policies resulting from constitutive judgements*, which retain many of these features of revealed preference. I use this concept to build an alternative preference relation, Meaningful Choice.
 classoption:
   - twocolumn
 papersize: a4
@@ -66,13 +66,11 @@ I think this earlier choice, at $t_0$, reveals more about me than the latter one
 
 Collecting an agent's APs is part of my proposal to improve the information basis of welfare, social choice, and recommenders. How could that work? You could use an interactive survey to collect the agent's common contexts (socializing, at work, in difficult conversations), and have them pick what they attend to most in each.[^other-methods]
 
-If they claim to have AP $a$ in context $c$, you could verify that with followup questions: First, you could ask them about recent moments in $c$, and what options they've found using $a$. Someone with a policy of vulnerability should be able to cough up various opportunities for vulnerabily, recently considered; some taken, some not.
+If they claim to have AP $a$ in context $c$, you could verify that with followup questions: First, you could ask them about recent moments in $c$, and what options they've found using $a$. Someone with a policy of vulnerability should be able to cough up various opportunities for vulnerability, recently considered; some taken, some not.
 
-Additionally, that person will also know when *exactly* vulnerability is called for, and when something else takes the fore. I don't try to be vulnerable when giving directions to a stranger, or with my dad. Generally, someone with $a$ in $c$ knows the shape of $c$ well.
+Additionally, that person will also know when *exactly* vulnerability is called for, and when something else takes the fore. I don't try to be vulnerable when giving directions to a stranger, or with my dad. Generally, someone with $a$ in $c$ will have detailed information about the shape of $c$.
 
-While many may claim vulnerability is what they attend to with friends, only some will answer these questions easily, and in detail.
-
-How would such data compare with the resolution, robustness, universality, and democratic simplicity of revealed preference?
+Supposing we collected an agent's APs. How would that compare with revealed preference data, in terms of resolution, robustness, universality, and democratic simplicity?
 
 Like preferences, APs are informed by our local situations and priorities, and say fine-grained things about how we want to live. Indeed, they have a higher resolution than I've let on so far: an AP about 'honesty' or 'vulnerability' is always short for a more specific policy, like "attend to what I feel about each thing we discuss, and let my feeling show", or "attend to false impressions a listener may get from my statements, and head them off with a disclaimer". That is: having honesty as a policy requires a substantive interpretation of honesty, and these differ from person to person.
 
@@ -84,9 +82,9 @@ But, they score worse on democratic simplicity than revealed preference. And, fo
 
 [^other-methods]: Social attestations, also, could be a source of AP information: someone who is widely admired for their wit likely has an AP about it. Behavioral data may also work: if someone shops by price or by quality, that may show up in purchase or click data.[Using, perhaps, approaches like @Chang2001; or @Levi1990.]
 
-# Broad Evaluation
+# Constitutive Judgement
 
-My second 'step back' considers the process of evaluation by which an agent makes a choice. Look at these three cases:
+My second 'step back' considers the kind of judgement an agent makes, when they decide to adopt an AP. Look at these three cases:
 
 (@) I watch the road while driving. I don't want to crash.
 
@@ -94,85 +92,92 @@ My second 'step back' considers the process of evaluation by which an agent make
 
 (@) I've decided to be more honest with friends. I recently opened up to a friend about a struggle I'm having. Since then, the relationship feels more intimate, and stronger; it's easier for me to think about what to say; my friend is unexpectedly helpful.
 
-The process of evaluation that lead the agent to adopt the first two APs is different than the third. Some APs are adopted mainly to achieve, maintain, ensure, or avoid a known outcome. The first two examples are of this type.
+In all three examples, the agent notes some benefits of adopting an AP $a$ in a context $c$---benefits like staying alive, keeping my job, and having helpful friends. And in each case, this leads to a decision to adopt it.
 
+But, in the first two examples, those benefits come together to make the case that doing $a$ in $c$ is functional, necessary, prudent, or expedient. The judgement is based on expected costs and benefits, much as a rational choice theorist would hope. I'll call this an *instrumental judgement*.
 
-I think, in these cases, there's not just a difference in degree (in the number of reasons), but that a different kind of evaluation is used: In the case of clear outcomes, we evaluate based on an expectation of known benefits and costs, much as a rational choice theorist might hope. But the other case features a more Rawlsian[@Rawls1971; also @Velleman1989; and @Boyd1988] kind of evaluation, where we look for an overall fit for the new activity within the constellation of practices and aims that make up our life. We guess how the new thing might fit, even with practices we haven't fully catalogued. We reconnoiter the space of potential benefits, looking for an overall trend, rather than a clear outcome. In doing so, we ask ourselves a question like "does this activity belong in my best life?" and evaluate based on how it fits with whatever we've already answered yes to.
+In example 3, the benefits become supporting evidence for a much larger claim: that honesty with friends is *constitutive* of good relationships^[Good relationships for *this* agent, at least.], or at least naturally goes together with them. The benefits suggest that honesty is a necessary part of the kind of relationships I want to build, or the kind of person I want to be---not just that it's functional. A part-whole claim, or a claim to synergy, not one about cause and effect.
 
-- Does she gives a small number of reasons, pointing towards one state of the world, $s$, that she's working to achieve, maintain, or ensure (such as 'staying alive', or 'keeping her job')?
-- Do those reasons seem to capture her rationale fully? To test this, ask her how she'd feel if they were they taken out of consideration (e.g., if she discovered she'd crash anyways, or that her speech had no bearing on whether she'd be fired): Would she select a different AP for $c$ and consider herself better off, free to focus on something else? Or similarly, would she consider it a net gain if she could clone herself, and have the clone handle doing $a$ in $c$? Or otherwise automate the achievement of $s$?
-- While doing $a$, does she split her attention, so that she can reconsider, if needed, the efficacy of $a$ in achieving $s$?
+I'll refer to this as a *constitutive judgement*. To make one, we ask ourselves questions like: are Xs impossible without Ys? Are Xs without Ys in some way lesser? Are there kinds of wholeness that emerge only when a X has an Y? At first glance, the evidence that goes into these questions *looks* like a gathering of costs and benefits---additional kinds of wholeness, etc! So the raw materials for this judgement are similar, but we aren't building an expected value with them, we're doing something else.
 
-Positive answers indicate a narrow-evaluation. On the other hand:
+Why do we make constitutive judgements, instead of doing a cost-benefit analysis for everything? Other authors have good answers [@Taylor1977; @Rawls1971; @Velleman1989; @Boyd1988], but here's a simple one: constitutive judgement is a shortcut. Instead of asking each time we have an X, whether we should also have an Y, we ask up-front if Xs and Ys belong together. If we think so, we put Ys in our Xs without considering each case.
 
-- Does she have diffuse reasons for adopting $a$ in $c$? Does she sense she's only *just begun* discovering the benefits of $a$, and more will come?
-- Imagine her current reasons were taken out of consideration (e.g., if she were assured that, without opening up to friends, she could magically get the same benefits---an easier time speaking, more helpful friends?). Would she still want to do $a$ in $c$? Relatedly, if she could clone herself, would she reserve for herself the task of doing $a$ rather than give it to the clone (or otherwise automate it)?
-- While doing $a$, is her attention unified, with no worry about whether she's achieving/maintaining/ensuring $s$?
+Anyways, both kinds of evaluation can have errors, and are subject to reconsideration. Instrumental judgements are more delicate, because they depend on a more-or-less complete accounting of costs, benefits, and efficacy. Constitutive judgements, you don't need such a complete accounting: if the benefits you've already noticed line up nicely, you can take them as evidence of synergy or wholeness. You'll reconsider your judgement only if you start to think you got that overall pattern wrong.
 
-Positive answer mean we can say that $a$ is, for this agent, a BAP.[^intrinsic]
+This gives us a way to tell APs adopted via a constitutive judgement (CAPs) from those adopted instrumentally (IAPs). Say an agent uses AP $a$ in context $c$.
 
-I'll refer to this as broad-evaluation. When an AP is adopted from a broad-evaluation, I'll call it a "BAP"---a *broadly-evaluated attentional policy*. An agent's APs can be filtered, and the BAPs highlighted: If an agent uses AP $a$ in context $c$, you can ask her why $a$ is wise in $c$:
+First, you can ask her: why is $a$ wise in $c$? Does she gives a small number of reasons, pointing towards one state of the world, $s$, that she's working to achieve, maintain, or ensure (such as 'staying alive', or 'keeping her job')? Or does she gives diffuse, unconnected reasons, and sense she's only *just begun* discovering the benefits of $a$ in $c$?
 
-[^intrinsic]: This eliminates much of what philosophers call instrumental reasons--what's done merely to keep our jobs, to fit in with a friend group, to achieve specific goals, or to get good sensations. Whatever's due to logistical, instrumental, or hypothetical concerns (including concerns from outside pressure and limited options).
+Second, do the given reasons seem to capture her full rationale? If so, it's likely an IAP. To test this, ask her how she'd feel if they were taken out of consideration (e.g., if she discovered she'd crash anyways, that her speech had no bearing on whether she'd be fired, or that, without opening up to friends, she could magically get the same benefits): Would she select a different AP for $c$ and consider herself better off, free to focus on something else? Similarly, would she consider it a net gain if she could clone herself, and have the clone handle doing $a$ in $c$? Or otherwise automate the achievement of $s$? Or---on the other hand---would she reserve for herself the task of doing $a$ rather than give it to the clone?
 
-[^values]: I'm using "values" here as it's used in everyday speech. In philosophical writing, values are often considered as evaluative criteria or attitudes (@Chang2004, @Velleman1989). My treatment of them as policies works there too, I think: an evaluative attitude or criterion can be viewed as something a person does when making an evaluation or choice.
+Finally, while doing $a$, does she split her attention, putting some attention on how $s$ is going, so that she can reconsider, if needed, the efficacy of $a$ in achieving $s$? Or is her attention is wholly on $a$, with no worry about what she's achieving/maintaining/ensuring?
 
-# Values as BAPs
+I've found that these conditions almost always coincide. An AP adopted for diffuse reasons will tend to have someone's whole attention, and they'll be resistant to automating it. A strong sign it's a CAP.
 
-I want to suggest that an agent's BAPs deserve to be called their values[^values]. I'll illustrate this with a personal story:
+[^values]: In philosophical writing, values are often considered as evaluative criteria or attitudes (@Chang2004, @Velleman1989). My treatment of them as policies works there too, I think: an evaluative attitude or criterion can be viewed as something a person does when making an evaluation or choice. But that's not our topic here.
+
+# Values as CAPs
+
+I want to suggest that an agent's CAPs deserve to be called their values, in at least two everyday[^values] senses of the word. I'll illustrate this with a personal story:
 
 > Earlier in my career, I chose work colleagues for their brilliance, efficacy, and a shared sense of play. One day, with one colleague in particular, I recognized a different thing we shared: we were excited to participate in the same long-term trends. This felt meaningful.
 
-> Later, when choosing teammates, I began looking for this alignment first. My teams now seem more likely to stick together. But that's just one benefit of many. Even if I knew my teams *wouldn't* last longer, I'd still hire with this in mind.[^eventually]
+> Later, when choosing teammates, I began to look for this alignment first. My teams now seem more likely to stick together, and we have new types of conversations.
 
-In this story, I gained a BAP. Did I gain a value? There are two senses in which the word "values" is commonly used, by which I did gain a value. But before I go into those, I'll bracket one common sense of "values" which *doesn't* fit BAPs: visions of what's right for everyone, or for a group: what a family should be like, how a father should behave, what a nation should be like, etc.
+> But even if I knew my teams *wouldn't* last longer, or if those conversations were somehow blocked from happening, I'd still hire with this in mind.
 
-In my story, I don't gain *that* kind of value. It's inspiring for me, and if I was in a mentoring situation I might suggest it, but I don't come to think everyone should hire this way. It's not a political cause (like inclusiveness, freedom, etc), nor is it some standard to which I'll push others to conform, or try to conform myself (like masculine or feminine dress-codes). BAPs have little to do with this use of the word "values".[^visions]
+In this story, I gained a CAP. Did I gain a value? I think so. But before going into it, I'll bracket off one common sense of "values" which *doesn't* fit CAPs. I didn't gain a 'social vision': a vision of what's right for everyone, or for a group (e.g., what a family should be like, how a father should behave, what a nation should be like). I didn't gain a political cause (like inclusiveness, freedom, etc), nor a standard to which I'll push others to conform, or try to conform myself (like masculine or feminine dress-codes).
 
-But, two common uses of the word values are just as prevalent, and fit snugly:
+CAPs have little to do with this use of the word "values".[^visions] But, two other uses of the word fit snugly:
 
-First, we use values to mean things that feel right and meaningful when you do them---such as being vulnerable, taking stage, being creative, etc. My BAP qualifies here.
+First, we use values for the things that feel right and meaningful when you do them---such as being vulnerable, taking stage, being creative, etc. My CAP fits, in this sense.
 
-Second, we use values to mean those individual sources of meaning that keep institutions working---e.g., in expressions like "the values of science" or "democratic values". ^[Sometimes this is meant to point to visions of what's right, which I bracketed aside above: a free country, an inclusive process.] In this sense, a scientist's values might include intellectual humility, passionate pursuit of the truth, etc. These aren't just meaningful for scientists, they keep the institution of science on the rails.[^collective]
+Second, we use values---in expressions like "the values of science" or "democratic values"---for the individual sources of meaning that keep institutions working. So, a scientist's values might include intellectual humility, passionate pursuit of the truth, etc. Things that are both meaningful for scientists, and needed to keep the institution of science on the rails.
 
-BAPs are adopted by individuals, but they seem to capture well this kind of wisdom[^wisdom]---knowledge about the smooth operation of social life.
-
-[^eventually]: Eventually, I suppose having teammates like this will cease to be meaningful to me---it will just be how my life is. But when I'm hiring, it will still be an attentional policy I've adopted for broad benefits.
-
-[^wisdom]: In popular speech, knowledge with a dominant reason is *know-how*, whereas knowledge with broad-support is *wisdom*. I.e., wisdom could be defined as "knowing from experience which policies are broadly beneficial." BAP knowledge.
+Why do CAPs highlight the latter, which we might call *institutional meanings*? For two reasons: First, they are likely to have been judged constitutive of the practice of science. More importantly, they filter out what's been adopted in that practice for merely instrumental reasons---what's done merely to keep your job, to fit in with colleagues, or to achieve specific goals. So, a scientist's CAPs will not include what they do merely to get tenure, to amass citations, etc. This means CAPs exclude all the perverse incentives (often arising from coordination problems[^collective]) which clutter up institutions, but include what's considered constitutive. Institutional meanings show up clearly.
 
 [^collective]: APs may offer an account for the rationality of collective action---compared to the prisoner's dilemma arguments in @Anderson2001 and @Sen1973. In contrast, my approach follows @Velleman2005, ch 11, closely.
 
-![BAPs from our database, [meaning.supplies](http://meaning.supplies).](i/ms.png)
+![CAPs from our database, [meaning.supplies](http://meaning.supplies).](i/ms.png)
 
-[^visions]: These social visions *do* lead to attentional policies. People often try to be *inclusive* or *feminine* based on such a vision. But if this is done purely with a vision to spread, this is a one-reason affair. Once someone has many reasons to be inclusive or feminine, it ends up in the 'personally meaningful' bucket, in sense 2. (Note: the situation is complex, because spreading a vision of inclusivity may be something you attend to *because of* a BAP. E.g., because you look for opportunities to *respond deeply to the world-situation as you find it*.)
+[^visions]: While people often try to be *inclusive* or *feminine* based on such a vision, if this is done merely to spread a social vision, to conform with one, or otherwise to bring about a social change, it's an IAP.
 
 # Meaningful Choice
 
-Finally, I want to suggest that some revealed preferences express more of our values than others. Consider the preference of Janet, who takes a job at Soulcrushingjobs.com. She says:
+Finally, I want to suggest that some revealed preferences are more expressive of our values, and should count more in welfare calculations, recommender systems, and social choice.
 
-> It's the only way my kids can eat. If I didn't go work there, I'd feel a crushing guilt. And my kids might get taken away. Also, I believe in taking responsibity for my family, and this is the way to do that.
+Consider the preference of Janet, who takes a job at Soulcrushingjobs.com. She says:
 
-We can inquire about her choice of Soulcrushingjobs.com: what AP led Janet to it? Various candidates emerge from her testimony: perhaps she was searching for ways to take responsibility? Or, perhaps she was searching for any job that would feed her family. These would be very different search processes.
+> It's the only way my kids can eat. If I didn't go work there, I'd feel a crushing guilt. And my kids might get taken away. Also, I believe in taking responsibility for my family, and this is the way to do that.
 
-We can verify "taking responsibility" is a BAP for her, by asking her when that AP is important, and how she decided it's important then. If "taking responsibility" has a clear context and is broadly-supported, it's a BAP.
+We can inquire about her choice of Soulcrushingjobs.com: what APs led Janet towards this option?
 
-If this BAP drove her search process, she would have found a wide variety of ways to take responsibility as part of her job search. If, on the other hand, she was more focused on finding any job that'd feed her family, we would expect a narrower collection of options.
+1. Let's first verify that "taking responsibility" is a CAP for her. We ask her when that AP is important, and how she decided it's important then. If she knows the context well, and adopted via a constitutive judgement, it's a CAP.
 
-* Voice Note
+2. Now, we can list options she considered along the way, along with the contexts and APs responsible for surfacing and narrowing those options.Various candidates emerge for the main AP: Was she searching for ways to take responsibility? Or, was she searching for any job to feed her family. These would look very different: if her CAP drove her search, she would have found a wide variety of ways to take responsibility as part of her search. If, on the other hand, she was more focused on finding any job that'd feed her family, we would expect a narrower collection of options.
+
+This makes a huge difference: if Janet's job search was about taking responsibility, she was guided by her values in searching, and we can take her choice as an expression of those values. If, however, her search was driven mainly by IAPs, like trying desperately to feed her family, her it's less about values, and more about a tough situation. She's bucking to external pressure, caught in the system, or setting aside her goals to conform to a social rule.
+
+Should we consider such a choice to be a revealed preference? If anything, Janet's preference is not for soulcrushingjobs.com, but for a better situation, where she *could* choose by her values.
+
+My suggestion is to modify welfare calculations, recommender systems, and social choice to count these choices differently: to collect information about the APs driving a choice, and whether they are CAPs or IAPs, and to restrict the preference relation to only count *meaningful choices*---choices that are expressive of values.[Maintaining the normal structure of welfare economics, see @Bernheim2009.]
+
+This would avoid rewarding actors who rig the game: who force people's hands, tilt the playing field, etc, to drive people towards their option.
+
+A further step would count incidences of meaningful vs. non-meaningful choice as expressing second-order preferences about choice *environments*. A non-meaningful choice is an opportunity to ask the agent if they wish their choice *situation* had been different. This is additional information that could be worked into welfare and social choice (although I'm not sure how).
 
 # Conclusion
 
-Suppose a survey were developed to determine people's BAPs and their role in choice, and that these surveys could be simplified, to the point where the introspection or articulacy required wouldn't limit their applicability^[E.g., with rich interactivity, or by infering BAPs from other data.].
+The refined preference relation I've described requires additional information from the agent. But this information retains many advantages of revealed preference: it's universally applicable, high-resolution, and robust in the sense that it captures hard-boiled trade-offs.
 
-Suppose, also, that the data so-obtained can be verifiable, auditable, reliable, and legitimate.^[Granted, a tall order.]
+Where it most clearly falls short, is with what I've called democratic simplicity. CAP-information requires more introspection, more articulacy, and is much harder to verify.
 
-Then, welfare calculations and social choice mechanisms could be modified: by substituting meaningful choice for the standard preference relation.[Maintaining the normal structure of welfare economics, see @Bernheim2009.]
+I'm not sure these challenges can be overcome, but there are promising avenues for research:
 
-These new mechanisms might cease to reward to those who rig people's choices (through misinformation, market manipulation, etc). They could address other areas where preferences are misaligned with values, like clickbait, internet addiction, populist politics, and obesity.
+* Rich, interactive experiences can help people uncover their CAPs,
+* CAPs can be inferred from other data,
+* Visualizations and cryptography can make CAP data understandable and auditable, so decisions based on meaningful choice can be legitimated.
 
-They might also better support those values that keep science, democracies, etc on the rails---values which are often lost in revealed preference due to coordination problems.
-
-And this might be an information basis for mechanisms and calculations which go much further than meaningful choice: We could develop a measure that increases the number of meaningful choices, relative to the total: to give more people more such choices.
+In many areas, a misalignment between preferences and values plagues our society: clickbait, internet addiction, populist politics, obesity, and various forms of institutional rot. If CAP-based approaches to welfare, recommender systems, and social choice can help, it seems worth the research effort.
 
 # References
