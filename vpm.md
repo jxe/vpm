@@ -37,7 +37,7 @@ I'll develop such an information source here, by taking two 'steps back' from re
 
 A rich literature covers how revealed preferences---which, when summed up, are called *engagement metrics*---lead us astray. You can often get people to choose something without serving their real interests: you can misinform them, or leverage their misplaced hopes.
 
-Or, you can make it so people *need* your thing for what once was possible without it: they need your car to get to work, your socal media account to find a job, your dress to socialize with their friends, etc.
+Or, you can make it so people *need* your thing for what once was possible without it: they need your car to get to work, your social media account to find a job, your dress to socialize with their friends, etc.
 
 More broadly, you can manufacture social circumstances where people choose your thing to "keep up with the Joneses", to signal allegiance with their tribe, or because they've lost the ability to coordinate a real solution.[See discussions of the prisoner's dilemma in e.g., @Sen1973; @Anderson2001]
 
