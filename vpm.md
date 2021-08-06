@@ -70,6 +70,8 @@ If they claim to have AP $a$ in context $c$, you could verify that with followup
 
 Additionally, that person will also know when *exactly* vulnerability is called for, and when something else takes the fore. I don't try to be vulnerable when giving directions to a stranger, or with my dad. Generally, someone with $a$ in $c$ will have detailed information about the shape of $c$.
 
+![Verifying APs](i/ap-verify.png)
+
 Supposing we collected an agent's APs. How would that compare with revealed preference data, in terms of resolution, robustness, universality, and democratic simplicity?
 
 Like preferences, APs are informed by our local situations and priorities, and say fine-grained things about how we want to live. Indeed, they have a higher resolution than I've let on so far: an AP about 'honesty' or 'vulnerability' is always short for a more specific policy, like "attend to what I feel about each thing we discuss, and let my feeling show", or "attend to false impressions a listener may get from my statements, and head them off with a disclaimer". That is: having honesty as a policy requires a substantive interpretation of honesty, and these differ from person to person.
@@ -111,6 +113,8 @@ First, you can ask her: why is $a$ wise in $c$? Does she gives a small number of
 Second, do the given reasons seem to capture her full rationale? If so, it's likely an IAP. To test this, ask her how she'd feel if they were taken out of consideration (e.g., if she discovered she'd crash anyways, that her speech had no bearing on whether she'd be fired, or that, without opening up to friends, she could magically get the same benefits): Would she select a different AP for $c$ and consider herself better off, free to focus on something else? Similarly, would she consider it a net gain if she could clone herself, and have the clone handle doing $a$ in $c$? Or otherwise automate the achievement of $s$? Or---on the other hand---would she reserve for herself the task of doing $a$ rather than give it to the clone?
 
 Finally, while doing $a$, does she split her attention, putting some attention on how $s$ is going, so that she can reconsider, if needed, the efficacy of $a$ in achieving $s$? Or is her attention is wholly on $a$, with no worry about what she's achieving/maintaining/ensuring?
+
+![Verifying CAPs](i/cap-verify.png)
 
 I've found that these conditions almost always coincide. An AP adopted for diffuse reasons will tend to have someone's whole attention, and they'll be resistant to automating it. A strong sign it's a CAP.
 
@@ -155,6 +159,8 @@ We can inquire about her choice of Soulcrushingjobs.com: what APs led Janet towa
 1. Let's first verify that "taking responsibility" is a CAP for her. We ask her when that AP is important, and how she decided it's important then. If she knows the context well, and adopted via a constitutive judgement, it's a CAP.
 
 2. Now, we can list options she considered along the way, along with the contexts and APs responsible for surfacing and narrowing those options.Various candidates emerge for the main AP: Was she searching for ways to take responsibility? Or, was she searching for any job to feed her family. These would look very different: if her CAP drove her search, she would have found a wide variety of ways to take responsibility as part of her search. If, on the other hand, she was more focused on finding any job that'd feed her family, we would expect a narrower collection of options.
+
+![Verifying MCs](i/mc-verify.png)
 
 This makes a huge difference: if Janet's job search was about taking responsibility, she was guided by her values in searching, and we can take her choice as an expression of those values. If, however, her search was driven mainly by IAPs, like trying desperately to feed her family, her it's less about values, and more about a tough situation. She's bucking to external pressure, caught in the system, or setting aside her goals to conform to a social rule.
 
