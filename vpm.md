@@ -102,11 +102,11 @@ In example 3, the benefits become supporting evidence for a much larger claim: t
 
 I'll call this a *constitutive judgement*. To make one, we ask ourselves questions like: are Xs impossible without Ys? Are Xs without Ys in some way lesser? Are there kinds of wholeness that emerge only when an X has a Y? Note: the evidence that goes into these questions looks *a lot* like costs and benefits (additional kinds of wholeness, etc)! So the raw materials for this judgement are similar, but instead of building an expected value, we build a more general conclusion.
 
-Why do we make constitutive judgements, instead of doing a cost-benefit analysis for everything? Other authors have good answers [@Taylor1977; @Rawls1971; @Velleman1989; @Boyd1988], but here's a simple one: constitutive judgement is cognitively efficient. Instead of asking each time we have an X, whether we should also have an Y, we ask up-front if Xs and Ys belong together. If we think so, we put Ys in our Xs without considering each case.
+Why do we make constitutive judgements, instead of doing a cost-benefit analysis for everything? Other authors have marked out a role for constitutive judgements in moral reasoning[@Rawls1971], higher-order desires[@Taylor1977], self-understanding [@Velleman1989], and identifying natural kinds [@Boyd1988], but there's also a case to be made from bounded rationality[Following @Simon1955; @Gibson1966; and @Bratman1987]: constitutive judgements are cognitively efficient. Instead of asking each time we have an X, whether we should also have an Y, we ask up-front if Xs and Ys belong together. If we think so, we put Ys in our Xs without considering each case.
 
 Anyways, both kinds of judgement can have errors, and are subject to reconsideration. Instrumental judgements are more delicate, because they depend on a more-or-less complete accounting of costs, benefits, and efficacy. For constitutive judgements, you don't need such a complete accounting: if the benefits you've already noticed line up nicely, you can take them as evidence of a synergy or wholeness. You'll reconsider your judgement only if you start to think you got the overall pattern wrong.
 
-This gives us a way to tell APs adopted via a constitutive judgement (CAPs) from those adopted instrumentally (IAPs). Say an agent uses AP $a$ in context $c$.
+This gives us a way to tell APs resulting from a constitutive judgements (CAPs) from those adopted instrumentally (IAPs). Say an agent uses AP $a$ in context $c$.
 
 First, you can ask her: why is $a$ wise in $c$? Does she gives a small number of reasons, pointing towards one state of the world, $s$, that she's working to achieve, maintain, or ensure (such as 'staying alive', or 'keeping her job')? Or does she gives diffuse, unconnected reasons, and sense she's only *just begun* discovering the benefits of $a$ in $c$?
 
@@ -142,7 +142,7 @@ Why do CAPs highlight the latter, which we might call *institutional meanings*? 
 
 [^collective]: APs may offer an account for the rationality of collective action---compared to the prisoner's dilemma arguments in @Anderson2001 and @Sen1973. In contrast, my approach follows @Velleman2005, ch 11, closely.
 
-![CAPs from our database, [meaning.supplies](http://meaning.supplies).](i/ms.png)
+![CAPs from our database, [meaning.supplies](http://meaning.supplies).](i/values.png)
 
 [^visions]: While people often try to be *inclusive* or *feminine* based on such a vision, if this is done merely to spread a social vision, to conform with one, or otherwise to bring about a social change, it's an IAP.
 
