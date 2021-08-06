@@ -2,7 +2,7 @@
 title: Values, Preferences, Meaningful Choice
 author: |
   | Joe Edelman[^joe]
-date: 5 August 2021 --- \textsc{draft}
+date: 6 August 2021 --- \textsc{draft}
 abstract: |
   Many fields (social choice, welfare economics, recommender systems) assume people express what benefits them via their 'revealed preferences'. Revealed preferences have well-documented problems when used this way, but are hard to displace in these fields because, as an information source, they are simple, universally applicable, robust, and high-resolution. In order to compete, other information sources (about participants' values, capabilities and functionings, etc) would need to match this. I present a conception of values as *attention policies resulting from constitutive judgements*, and use it to build an alternative preference relation, Meaningful Choice, which retains many desirable features of revealed preference.
 classoption:
@@ -32,6 +32,12 @@ Similar sentiments followed, in @Arrow1951, @Sen1977, @Anderson2001, etc. As an 
 One way to respond is to say that people *do* know best, and have wise values, but that their revealed preferences aren't the last word on those values. But to establish this, you'd want another source of information on people's values---one that retains much of the resolution, robustness, universal applicability, and democratic simplicity of preference.
 
 I'll develop such an information source here, by taking two 'steps back' from revealed preference, widening the information collected. Then I'll argue that my new source corresponds with one definition of "values" used in common speech. Finally, I'll show how this new source can be used in social choice and welfare calculations.
+
+As I go, I'll build up a schematic representation of an interview structure with which an agent's values could be collected, and a choice assessed to see if it was expressive of those values.
+
+My goal here is to make it clear what I'm suggesting: what questions could be asked, and what answers might suffice to show that an agent has this value or that, or that a revealed preference was a meaningful choice.
+
+I am *not* suggesting that these interviews can be used to collect data at the scale needed for welfare calculations, social choice mechanisms, or recommender systems. That practical question is beyond my scope here.
 
 # Preferences
 
@@ -88,17 +94,17 @@ But, they score worse on democratic simplicity than revealed preference. And, fo
 
 My second 'step back' considers the kind of judgement an agent makes, when they decide to adopt an AP. Look at these three cases:
 
-(@) I watch the road while driving. I don't want to crash.
+(@driving) I watch the road while driving. I don't want to crash.
 
-(@) I'm careful with my speech at work. My boss fires anyone who speaks imprecisely.
+(@work) I'm careful with my speech at work. My boss fires anyone who speaks imprecisely.
 
-(@) I've decided to be more honest with friends. I recently opened up to a friend about a struggle I'm having. Since then, the relationship feels more intimate, and stronger; it's easier for me to think about what to say; my friend is unexpectedly helpful.
+(@honest) I've decided to be more honest with friends. I recently opened up to a friend about a struggle I'm having. Since then, the relationship feels more intimate, and stronger; it's easier for me to think about what to say; my friend is unexpectedly helpful.
 
 In all three examples, the agent notes some benefits of adopting an AP $a$ in a context $c$---benefits like staying alive, keeping my job, and having helpful friends. And in each case, this leads to a decision to adopt it.
 
 But, in the first two examples, those benefits come together to make the case that doing $a$ in $c$ is functional, necessary, prudent, or expedient. The judgement is based on expected costs and benefits, much as a rational choice theorist would hope. I'll call this an *instrumental judgement*.
 
-In example 3, the benefits become supporting evidence for a much larger claim: that honesty with friends is *constitutive* of good relationships^[Good relationships for *this* agent, at least.], or at least naturally goes together with them. The benefits suggest that honesty is going to be part of any relationship I want to build, or is part of the person I want to be---not just that it's functional in achieving certain ends. It's a part-whole claim, or a claim to synergy, not a claim about cause and effect.
+In (@honest), the benefits become supporting evidence for a much larger claim: that honesty with friends is *constitutive* of good relationships^[Good relationships for *this* agent, at least.], or at least naturally goes together with them. The benefits suggest that honesty is going to be part of any relationship I want to build, or is part of the person I want to be---not just that it's functional in achieving certain ends. It's a part-whole claim, or a claim to synergy, not a claim about cause and effect.
 
 I'll call this a *constitutive judgement*. To make one, we ask ourselves questions like: are Xs impossible without Ys? Are Xs without Ys in some way lesser? Are there kinds of wholeness that emerge only when an X has a Y? Note: the evidence that goes into these questions looks *a lot* like costs and benefits (additional kinds of wholeness, etc)! So the raw materials for this judgement are similar, but instead of building an expected value, we build a more general conclusion.
 
@@ -185,5 +191,17 @@ I'm not sure these challenges can be overcome, but there are promising avenues f
 * Visualizations and cryptography can make CAP data understandable and auditable, so decisions based on meaningful choice can be legitimated.
 
 In many areas, a misalignment between preferences and values plagues our society: clickbait, internet addiction, populist politics, obesity, and various forms of institutional rot. If CAP-based approaches to welfare, recommender systems, and social choice can help, it seems worth the research effort.
+
+# Appendix A: Interview Transcript
+
+Below is a conversation in which someone's values were articulated, and a choice of theirs evaluated as to whether those values were expressed.
+
+In future work, I hope that hundreds of such conversations will teach us how to build automated, interactive "assisted introspection" systems to replace these manual interviews, and that data from tens of thousands of automated interactions will, in turn, lead to techniques for inferring values from other, readily-available data.
+
+\begin{center}
+
+— to be done —
+
+\end{center}
 
 # References
