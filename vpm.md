@@ -70,13 +70,17 @@ I think this earlier choice, at $t_0$, reveals more about me than the latter one
 
 [^adopted]: I adopt APs (just like I make plans, adopt heuristics, comply with norms, follow through with intentions) because my bounded rationality and social needs make it expedient.[@Bratman1987; @Simon1955; @Taylor2016]
 
-Collecting an agent's APs is part of my proposal to improve the information basis of welfare, social choice, and recommenders. How could that work? You could use an interactive survey to collect the agent's common contexts (socializing, at work, in difficult conversations), and have them pick what they attend to most in each.[^other-methods]
+\begin{figure*}[htpb!]
+\centering
+\includegraphics{i/breakfast-aps.png}
+\caption{Finding and verifying the APs behind a choice: Breakfast Cereal }
+\end{figure*}
 
-If they claim to have AP $a$ in context $c$, you could verify that with followup questions: First, you could ask them about recent moments in $c$, and what options they've found using $a$. Someone with a policy of vulnerability should be able to cough up various opportunities for vulnerability, recently considered; some taken, some not.
+Collecting an agent's APs is part of my proposal to improve the information basis of welfare, social choice, and recommenders. How could that work? You could use an interactive survey to collect the contexts in which the agent makes choices and evaluates options (socializing, at work, in difficult conversations), and have them pick what they attend to most in each.[^other-methods]
+
+If they claim to have AP $a$ in context $c$, you could verify that with followup questions (as in figure 1): First, you could ask them about recent moments in $c$, and what options they've found using $a$. Someone with a policy of vulnerability should be able to cough up various opportunities for vulnerability, recently considered; some taken, some not.
 
 Additionally, that person will also know when *exactly* vulnerability is called for, and when something else takes the fore. I don't try to be vulnerable when giving directions to a stranger, or with my dad. Generally, someone with $a$ in $c$ will have detailed information about the shape of $c$.
-
-![Verifying APs](i/ap-verify.png)
 
 Supposing we collected an agent's APs. How would that compare with revealed preference data, in terms of resolution, robustness, universality, and democratic simplicity?
 
@@ -104,7 +108,7 @@ In all three examples, the agent notes some benefits of adopting an AP $a$ in a 
 
 But, in the first two examples, those benefits come together to make the case that doing $a$ in $c$ is functional, necessary, prudent, or expedient. The judgement is based on expected costs and benefits, much as a rational choice theorist would hope. I'll call this an *instrumental judgement*.
 
-In (@honest), the benefits become supporting evidence for a much larger claim: that honesty with friends is *constitutive* of good relationships^[Good relationships for *this* agent, at least.], or at least naturally goes together with them. The benefits suggest that honesty is going to be part of any relationship I want to build, or is part of the person I want to be---not just that it's functional in achieving certain ends. It's a part-whole claim, or a claim to synergy, not a claim about cause and effect.
+In (@honest), the benefits become supporting evidence for a much larger claim: that honesty with friends is *constitutive* of good relationships^[Good relationships for *this* agent, at least.], or at least naturally goes together with them. The benefits suggest---not just that honesty is functional in achieving certain ends---but that honesty will be part of any relationship I want to build, or part of the person I want to be. Whereas an instrumental judgement relies on a claim about cause and effect, this is a part-whole claim, or a claim to synergy.
 
 I'll call this a *constitutive judgement*. To make one, we ask ourselves questions like: are Xs impossible without Ys? Are Xs without Ys in some way lesser? Are there kinds of wholeness that emerge only when an X has a Y? Note: the evidence that goes into these questions looks *a lot* like costs and benefits (additional kinds of wholeness, etc)! So the raw materials for this judgement are similar, but instead of building an expected value, we build a more general conclusion.
 
@@ -120,7 +124,7 @@ Second, do the given reasons seem to capture her full rationale? If so, it's lik
 
 Finally, while doing $a$, does she split her attention, putting some attention on how $s$ is going, so that she can reconsider, if needed, the efficacy of $a$ in achieving $s$? Or is her attention is wholly on $a$, with no worry about what she's achieving/maintaining/ensuring?
 
-![Verifying CAPs](i/cap-verify.png)
+![Breakfast CAPs](i/breakfast-cap.png)
 
 I've found that these conditions almost always coincide. An AP adopted for diffuse reasons will tend to have someone's whole attention, and they'll be resistant to automating it. A strong sign it's a CAP.
 
@@ -166,7 +170,7 @@ We can inquire about her choice of Soulcrushingjobs.com: what APs led Janet towa
 
 2. Now, we can list options she considered along the way, along with the contexts and APs responsible for surfacing and narrowing those options.Various candidates emerge for the main AP: Was she searching for ways to take responsibility? Or, was she searching for any job to feed her family. These would look very different: if her CAP drove her search, she would have found a wide variety of ways to take responsibility as part of her search. If, on the other hand, she was more focused on finding any job that'd feed her family, we would expect a narrower collection of options.
 
-![Verifying MCs](i/mc-verify.png)
+![Verifying MCs](i/major-meaningful-breakfast.png)
 
 This makes a huge difference: if Janet's job search was about taking responsibility, she was guided by her values in searching, and we can take her choice as an expression of those values. If, however, her search was driven mainly by IAPs, like trying desperately to feed her family, her it's less about values, and more about a tough situation. She's bucking to external pressure, caught in the system, or setting aside her goals to conform to a social rule.
 
@@ -204,4 +208,7 @@ In future work, I hope that hundreds of such conversations will teach us how to 
 
 \end{center}
 
+:::
+
 # References
+

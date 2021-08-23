@@ -17,11 +17,8 @@
       },
       "label": "pandoc watch",
       "type": "shell",
-      "command": "watchexec -w vpm.md -w vpm.bib -- pandoc --from=markdown --output=vpm.pdf vpm.md --pdf-engine=xelatex -s -C",
+      "command": "watchexec -w vpm.md -w vpm.bib -- pandoc -L columns.lua --from=markdown --output=vpm.pdf vpm.md --pdf-engine=xelatex -s -C",
       "problemMatcher": []
     }
-
   ]
 }
-
-
