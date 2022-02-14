@@ -2,7 +2,7 @@
 title: Values, Preferences, Meaningful Choice
 author: |
   | Joe Edelman[^joe]
-date: 6 August 2021 --- \textsc{draft}
+date: 14 February 2022 --- \textsc{draft}
 abstract: |
   Many fields (social choice, welfare economics, recommender systems) assume people express what benefits them via their 'revealed preferences'. Revealed preferences have well-documented problems when used this way, but are hard to displace in these fields because, as an information source, they are simple, universally applicable, robust, and high-resolution. In order to compete, other information sources (about participants' values, capabilities and functionings, etc) would need to match this. I present a conception of values as *attention policies resulting from constitutive judgements*, and use it to build an alternative preference relation, Meaningful Choice, which retains many desirable features of revealed preference.
 classoption:
@@ -31,13 +31,14 @@ Similar sentiments followed, in @Arrow1951, @Sen1977, @Anderson2001, etc. As an 
 
 One way to respond is to say that people *do* know best, and have wise values, but that their revealed preferences aren't the last word on those values. But to establish this, you'd want another source of information on people's values---one that retains much of the resolution, robustness, universal applicability, and democratic simplicity of preference.
 
-I'll develop such an information source here, by taking two 'steps back' from revealed preference, widening the information collected. Then I'll argue that my new source corresponds with one definition of "values" used in common speech. Finally, I'll show how this new source can be used in social choice and welfare calculations.
+Such an information source will be developed here by taking two 'steps back' from revealed preference, widening the information collected. This source corresponds with one definition of "values" used in common speech, and can be used in social choice and welfare calculations.
 
-As I go, I'll build up a schematic representation of an interview structure with which an agent's values could be collected, and a choice assessed to see if it was expressive of those values.
+To explicate this source, I include an interview structure, by which an agent's values can be collected, and a choice assessed to see if it was expressive of those values. The goal is to give an idea what questions could be asked, and what answers might suffice to show that an agent has this value or that, or that a revealed preference was a meaningful choice.
 
-My goal here is to make it clear what I'm suggesting: what questions could be asked, and what answers might suffice to show that an agent has this value or that, or that a revealed preference was a meaningful choice.
+This interview structure isn't suitable for collecting data at the scale needed for welfare calculations, social choice mechanisms, or recommender systems, but
 
-I am *not* suggesting that these interviews can be used to collect data at the scale needed for welfare calculations, social choice mechanisms, or recommender systems. That practical question is beyond my scope here.
+future work, I hope that hundreds of such conversations will teach us how to build automated, interactive "assisted introspection" systems to replace these manual interviews, and that data from tens of thousands of automated interactions will, in turn, lead to techniques for inferring values from other, readily-available data.
+
 
 # Preferences
 
@@ -196,19 +197,6 @@ I'm not sure these challenges can be overcome, but there are promising avenues f
 
 In many areas, a misalignment between preferences and values plagues our society: clickbait, internet addiction, populist politics, obesity, and various forms of institutional rot. If CAP-based approaches to welfare, recommender systems, and social choice can help, it seems worth the research effort.
 
-# Appendix A: Interview Transcript
-
-Below is a conversation in which someone's values were articulated, and a choice of theirs evaluated as to whether those values were expressed.
-
-In future work, I hope that hundreds of such conversations will teach us how to build automated, interactive "assisted introspection" systems to replace these manual interviews, and that data from tens of thousands of automated interactions will, in turn, lead to techniques for inferring values from other, readily-available data.
-
-\begin{center}
-
-— to be done —
-
-\end{center}
-
-:::
 
 # References
 
