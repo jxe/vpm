@@ -97,7 +97,9 @@ But, they score worse on democratic simplicity than revealed preference. And, fo
 
 # Constitutive Judgement
 
-My second 'step back' considers the kind of judgement an agent makes, when they decide to adopt an AP. Look at these three cases:
+In this section, I want to distinguish between two types of APs. Some, I claim, are part of our conception of what it is to live well. If $a$ is one of those, then a life in which I never attend to $a$ will seem somehow less of a life. Diminished.
+
+Not every AP is like this. Look at these three cases:
 
 (@driving) I watch the road while driving. I don't want to crash.
 
@@ -105,19 +107,27 @@ My second 'step back' considers the kind of judgement an agent makes, when they 
 
 (@honest) I've decided to be more honest with friends. I recently opened up to a friend about a struggle I'm having. Since then, the relationship feels more intimate, and stronger; it's easier for me to think about what to say; my friend is unexpectedly helpful.
 
-In all three examples, the agent notes some benefits of adopting an AP $a$ in a context $c$---benefits like staying alive, keeping my job, and having helpful friends. And in each case, this leads to a decision to adopt it.
+Would I feel my life were diminished, if I never attended to the road, or to pleasing my boss? No, I don’t think so. But my life *would* seem lesser, if I never attended to being honest with friends.
 
-But, in the first two examples, those benefits come together to make the case that doing $a$ in $c$ is functional, necessary, prudent, or expedient. The judgement is based on expected costs and benefits, much as a rational choice theorist would hope. I'll call this an *instrumental judgement*.
+Let us give a name to APs of the latter type: APs without which my life would seem somehow lesser. Let’s call them *Constitutive Attentional Policies*, or CAPs.
 
-In (@honest), the benefits become supporting evidence for a much larger claim: that honesty with friends is *constitutive* of good relationships^[Good relationships for *this* agent, at least.], or at least naturally goes together with them. The benefits suggest---not just that honesty is functional in achieving certain ends---but that honesty will be part of any relationship I want to build, or part of the person I want to be. Whereas an instrumental judgement relies on a claim about cause and effect, this is a part-whole claim, or a claim to synergy.
+We can go quite deep in distinguishing CAPs from other APs. At one level, this question (whether life would be diminished) marks out a set of APs which are part of a **densely connected core**.
+
+We can picture our ideas about the good life as an interlocking web of values and practices, tightly connected. In this densely connected core, any particular value (such as attending to taste) acts to support many other ways of attending and living, which are also part of this core. This means that CAPs will tend to be adopted for broad benefits.
+
+Non-CAPs (or *Instrumental Attentional Policies)* will, on other hand, tend to be outside this core, but pointing towards it. In the directed graph of benefits, you can think of them as thin lines that lead *towards* that densely connected center of the good life, but aren’t themselves densely-connected or within the core. When you ask why someone’s adopted an IAP, you’ll get narrower, specific reasons, that depend on a context.
+
+This may sound like a difference of degree, but I believe there is also a difference in kind. Specifically, a different kind of reasoning is used to justify attending to an IAP vs a CAP.
+
+**IAPs are adopted due to instrumental reasoning.** The benefits come together to make the case that doing $a$ in $c$ is functional, necessary, prudent, or expedient. The judgement is based on expected costs and benefits, much as a rational choice theorist would hope. I'll call this an *instrumental judgement*.
+
+**CAPs are adopted due to constitutive reasoning.** In (@honest), the benefits become supporting evidence for a much larger claim: that honesty with friends is *constitutive* of good relationships^[Good relationships for *this* agent, at least.], or at least naturally goes together with them. The benefits suggest---not just that honesty is functional in achieving certain ends---but that honesty will be part of any relationship I want to build, or part of the person I want to be. Whereas an instrumental judgement relies on a claim about cause and effect, this is a part-whole claim, or a claim to synergy.
 
 I'll call this a *constitutive judgement*. To make one, we ask ourselves questions like: are Xs impossible without Ys? Are Xs without Ys in some way lesser? Are there kinds of wholeness that emerge only when an X has a Y? Note: the evidence that goes into these questions looks *a lot* like costs and benefits (additional kinds of wholeness, etc)! So the raw materials for this judgement are similar, but instead of building an expected value, we build a more general conclusion.
 
 Why do we make constitutive judgements, instead of doing a cost-benefit analysis for everything? Other authors have marked out a role for constitutive judgements in moral reasoning[@Rawls1971], higher-order desires[@Taylor1977], self-understanding [@Velleman1989], and identifying natural kinds [@Boyd1988], but there's also a case to be made from bounded rationality[Following @Simon1955; @Gibson1966; and @Bratman1987]: constitutive judgements are cognitively efficient. Instead of asking each time we have an X, whether we should also have an Y, we ask up-front if Xs and Ys belong together. If we think so, we put Ys in our Xs without considering each case.
 
-Anyways, both kinds of judgement can have errors, and are subject to reconsideration. Instrumental judgements are more delicate, because they depend on a more-or-less complete accounting of costs, benefits, and efficacy. For constitutive judgements, you don't need such a complete accounting: if the benefits you've already noticed line up nicely, you can take them as evidence of a synergy or wholeness. You'll reconsider your judgement only if you start to think you got the overall pattern wrong.
-
-This gives us a way to tell APs resulting from a constitutive judgements (CAPs) from those adopted instrumentally (IAPs). Say an agent uses AP $a$ in context $c$.
+So, we can take a second "step back" from preference and consider how APs are adopted, and what kind of relation they have to each other. Say an agent uses AP $a$ in context $c$.
 
 First, you can ask her: why is $a$ wise in $c$? Does she gives a small number of reasons, pointing towards one state of the world, $s$, that she's working to achieve, maintain, or ensure (such as 'staying alive', or 'keeping her job')? Or does she gives diffuse, unconnected reasons, and sense she's only *just begun* discovering the benefits of $a$ in $c$?
 
@@ -130,6 +140,7 @@ Finally, while doing $a$, does she split her attention, putting some attention o
 I've found that these conditions almost always coincide. An AP adopted for diffuse reasons will tend to have someone's whole attention, and they'll be resistant to automating it. A strong sign it's a CAP.
 
 [^values]: In philosophical writing, values are often considered as evaluative criteria or attitudes (@Chang2004, @Velleman1989). My treatment of them as policies works there too, I think: an evaluative attitude or criterion can be viewed as something a person does when making an evaluation or choice. But that's not our topic here.
+
 
 # Values as CAPs
 
