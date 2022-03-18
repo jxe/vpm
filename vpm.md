@@ -35,9 +35,7 @@ Such an information source will be developed here by taking two 'steps back' fro
 
 To explicate this source, I include an interview structure, by which an agent's values can be collected, and a choice assessed to see if it was expressive of those values. The goal is to give an idea what questions could be asked, and what answers might suffice to show that an agent has this value or that, or that a revealed preference was a meaningful choice.
 
-This interview structure isn't suitable for collecting data at the scale needed for welfare calculations, social choice mechanisms, or recommender systems, but
-
-future work, I hope that hundreds of such conversations will teach us how to build automated, interactive "assisted introspection" systems to replace these manual interviews, and that data from tens of thousands of automated interactions will, in turn, lead to techniques for inferring values from other, readily-available data.
+This interview structure isn't suitable for collecting data at the scale needed for welfare calculations, social choice mechanisms, or recommender systems, but hundreds of such conversations may teach us how to build automated, interactive "assisted introspection" systems to replace these manual interviews. And data from these may, in turn, lead to techniques to infer values from other, readily-available data.
 
 
 # Preferences
